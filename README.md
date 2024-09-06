@@ -16,6 +16,7 @@ This is a simple template for a NodeJS Express server written in Typescript. It 
 - `typescript` - Typescript compiler
 - `express` - Web server
 <br>
+
 - `nodemon` - Monitor for changes and restart the server
 - `livereload` - Hot reload for the server
 - `connect-livereload` - Connect middleware for livereload
