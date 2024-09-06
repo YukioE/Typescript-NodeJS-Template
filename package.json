@@ -6,8 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node server.js"
+    "dev": "nodemon",
+    "start": "npm run build && node dist/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/connect-livereload": "^0.6.3",
+    "@types/express": "^4.17.21",
+    "@types/livereload": "^0.9.5",
+    "connect-livereload": "^0.6.1",
+    "express": "^4.19.2",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
 }
